@@ -1,0 +1,142 @@
+@startuml
+class com.example.gmifyp.importantcontacts {
+- UiModeManager uiModeManager
+# void onCreate(Bundle)
+}
+class com.example.gmifyp.splash {
+# void onCreate(Bundle)
+}
+class com.example.gmifyp.library {
++ WebView WebView
+- String googleDocs
+- {static} int LOADING
++ void onCreate(Bundle)
++ void message()
+}
+class com.example.gmifyp.MyJavaScriptInterface {
+- TextView contentView
++ void processContent(String)
+}
+class com.example.gmifyp.WebkitCookieManagerProxy {
+- android.webkit.CookieManager webkitCookieManager
++ void put(URI,Map<String,List<String>>)
++ Map<String,List<String>> get(URI,Map<String,List<String>>)
++ CookieStore getCookieStore()
+}
+class com.HomeFragment {
+~ library web
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.example.gmifyp.schedule {
+# void onCreate(Bundle)
+}
+class com.example.gmifyp.VLU {
+# File extStorageAppBasePath
+# File extStorageAppCachePath
++ void onCreate(Bundle)
++ File getCacheDir()
+}
+class com.example.gmifyp.MyJavaScriptInterface {
+- TextView contentView
++ void processContent(String)
+}
+class com.OthersFragment {
++ {static} int ofs
+- Register reg
++ {static} String FILE_NAME
++ {static} String SHARED_PREFS
++ {static} String TEXT
++ {static} String SWITCH1
++ String ic1
++ TextView email
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
++ void loadData()
+}
+class com.QRFragment {
++ {static} String DATETIME
++ String icA
++ TextView scanstate
++ Date currentTime
++ int time1
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.example.gmifyp.IOHelper {
++ {static} String stringFromStream(InputStream)
++ {static} String stringFromFile(File)
++ {static} void writeToFile(File,String)
++ {static} void writeToFile(Context,String,String)
++ {static} String stringFromAsset(Context,String)
+}
+class com.example.gmifyp.Register {
+- {static} String TAG
++ {static} String email
+- MaterialButton btnRegister
++ TextInputEditText inputName
++ {static} String FILE_NAME
++ {static} String IC
++ {static} String MATRIX
++ {static} String EMAIL
++ {static} String PASSWORD
+~ FirebaseDatabase rootNode
+~ DatabaseReference reference
+~ String prevStarted
+# void onCreate(Bundle)
+- void init()
+- void check()
+# void onResume()
++ void moveToSecondary()
++ void saveData()
++ void loadData()
++ void updateViews()
+# void onStart()
+}
+class com.example.gmifyp.Users {
+~ String ic
++ String getIc()
++ void setIc(String)
++ String getMatrix()
++ void setMatrix(String)
++ String getEmail()
++ void setEmail(String)
++ String getPassword()
++ void setPassword(String)
+}
+class com.example.gmifyp.MainActivity {
+~ boolean doubleBackToExitPressedOnce
+~ NavigationView navigationView
+~ DrawerLayout drawer
+~ RelativeLayout rel1
+~ Button ham
+~ Toolbar toolbar
+~ int doubleBackToExitPressed
+- BottomNavigationView.OnNavigationItemSelectedListener navListener
++ void onBackPressed()
+# void onCreate(Bundle)
++ boolean onNavigationItemSelected(MenuItem)
+}
+class com.PortalFragment {
++ {static} Button button23
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
++ void bank(Context,String)
+}
+class com.VLUFragment {
+~ VLU vlu
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+
+
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.importantcontacts
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.splash
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.library
+java.net.CookieManager <|-- com.example.gmifyp.WebkitCookieManagerProxy
+androidx.fragment.app.Fragment <|-- com.HomeFragment
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.schedule
+android.app.Activity <|-- com.example.gmifyp.VLU
+androidx.fragment.app.Fragment <|-- com.OthersFragment
+androidx.fragment.app.Fragment <|-- com.QRFragment
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.Register
+com.google.android.material.navigation.NavigationView.OnNavigationItemSelectedListener <|.. com.example.gmifyp.MainActivity
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.MainActivity
+androidx.fragment.app.Fragment <|-- com.PortalFragment
+androidx.fragment.app.Fragment <|-- com.VLUFragment
+@enduml

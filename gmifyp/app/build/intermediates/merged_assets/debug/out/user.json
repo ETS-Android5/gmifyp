@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "ic":"010522102573",
+      "matrix": "SET19040100",
+      "email": "izzathazmi.razali@student.gmi.edu.my",
+      "password": "Nuruddin_25"
+    },
+    {
+      "ic":"010522102573a",
+      "matrix":"SET19040100a",
+      "email":"izzathazmi.razali@student.gmi.edu.mya",
+      "password":"Nuruddin_25a"
+    },
+    {
+      "ic":"010522102573a",
+      "matrix":"SET19040100a",
+      "email":"izzathazmi.razali@student.gmi.edu.mya",
+      "password":"Nuruddin_25a"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+com/example/gmifyp/splash.java
+ com.example.gmifyp.splash
+ com.example.gmifyp.splash$1
+com/HomeFragment.java
+ com.HomeFragment
+com/OthersFragment.java
+ com.OthersFragment
+ com.OthersFragment$1
+ com.OthersFragment$2
+ com.OthersFragment$3
+ com.OthersFragment$4
+ com.OthersFragment$5
+ com.OthersFragment$6
+com/example/gmifyp/BuildConfig.java
+ com.example.gmifyp.BuildConfig
+com/example/gmifyp/VLU.java
+ com.example.gmifyp.VLU
+ com.example.gmifyp.VLU$1
+ com.example.gmifyp.VLU$1MyJavaScriptInterface
+ com.example.gmifyp.VLU$1MyJavaScriptInterface$1
+com/example/gmifyp/Register.java
+ com.example.gmifyp.Register
+com/example/gmifyp/schedule.java
+ com.example.gmifyp.schedule
+ com.example.gmifyp.schedule$1
+com/example/gmifyp/importantcontacts.java
+ com.example.gmifyp.importantcontacts
+com/VLUFragment.java
+ com.VLUFragment
+ com.VLUFragment$1
+com/PortalFragment.java
+ com.PortalFragment
+ com.PortalFragment$1
+com/example/gmifyp/MainActivity.java
+ com.example.gmifyp.MainActivity
+ com.example.gmifyp.MainActivity$1
+ com.example.gmifyp.MainActivity$2
+ com.example.gmifyp.MainActivity$3
+com/example/gmifyp/WebkitCookieManagerProxy.java
+ com.example.gmifyp.WebkitCookieManagerProxy
+com/example/gmifyp/Users.java
+ com.example.gmifyp.Users
+com/example/gmifyp/library.java
+ com.example.gmifyp.library
+ com.example.gmifyp.library$1
+ com.example.gmifyp.library$1MyJavaScriptInterface
+ com.example.gmifyp.library$1MyJavaScriptInterface$1
+ com.example.gmifyp.library$2
+com/example/gmifyp/IOHelper.java
+ com.example.gmifyp.IOHelper
+com/QRFragment.java
+ com.QRFragment
+ com.QRFragment$1

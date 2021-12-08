@@ -1,0 +1,4 @@
+#Fri Dec 03 01:26:02 SGT 2021
+base.0=C\:\\Users\\Izzat\\AndroidStudioProjects\\gmifyp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
