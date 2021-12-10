@@ -1,9 +1,0 @@
-com/example/gmifyp/ExampleInstrumentedTest.java
- com.example.gmifyp.ExampleInstrumentedTest
-com/example/gmifyp/test/BuildConfig.java
- com.example.gmifyp.test.BuildConfig
-com/example/gmifyp/QrKtTest.java
- com.example.gmifyp.QrKtTest
-com/example/gmifyp/splashTest.java
- com.example.gmifyp.splashTest
- com.example.gmifyp.splashTest$1

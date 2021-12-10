@@ -1,0 +1,78 @@
+@startuml
+class com.example.gmifyp.WebviewTest2Activity {
+}
+class com.example.gmifyp.splash {
+# void onCreate(Bundle)
+}
+class com.example.gmifyp.WebkitCookieManagerProxy {
+- android.webkit.CookieManager webkitCookieManager
++ void put(URI,Map<String,List<String>>)
++ Map<String,List<String>> get(URI,Map<String,List<String>>)
++ CookieStore getCookieStore()
+}
+class com.HomeFragment {
+~ WebviewTest2Activity web
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.example.gmifyp.schedule {
+# void onCreate(Bundle)
+}
+class com.example.gmifyp.qr {
+- {static} int CAMERA_REQUEST_CODE
+}
+class com.example.gmifyp.qr.Qra {
+- CodeScanner codeScanner
+# void onCreate(Bundle)
+# void onResume()
+# void onPause()
+- void setupPermission()
+- void makeRequest()
++ void onRequestPermissionsResult(int,String[],int[])
++ {static} CodeScanner access$getCodeScanner$p(Qra)
++ {static} void access$setCodeScanner$p(Qra,CodeScanner)
+}
+class com.OthersFragment {
++ {static} int ofs
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.QRFragment {
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.example.gmifyp.Register {
+- {static} String TAG
++ {static} String name
+- MaterialButton btnRegister
+- TextInputLayout inputName
+~ String prevStarted
+# void onCreate(Bundle)
+- void init()
+- void registerUser(String,String,String,String,String)
+# void onResume()
++ void moveToSecondary()
+}
+class com.example.gmifyp.MainActivity {
+- BottomNavigationView.OnNavigationItemSelectedListener navListener
+# void onCreate(Bundle)
+}
+class com.PortalFragment {
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.VLUFragment {
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+
+
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.WebviewTest2Activity
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.splash
+java.net.CookieManager <|-- com.example.gmifyp.WebkitCookieManagerProxy
+androidx.fragment.app.Fragment <|-- com.HomeFragment
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.schedule
+com.example.gmifyp.qr +.. com.example.gmifyp.qr.Qra
+com.example.gmifyp.AppCompatActivity <|-- com.example.gmifyp.qr.Qra
+androidx.fragment.app.Fragment <|-- com.OthersFragment
+androidx.fragment.app.Fragment <|-- com.QRFragment
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.Register
+androidx.appcompat.app.AppCompatActivity <|-- com.example.gmifyp.MainActivity
+androidx.fragment.app.Fragment <|-- com.PortalFragment
+androidx.fragment.app.Fragment <|-- com.VLUFragment
+@enduml

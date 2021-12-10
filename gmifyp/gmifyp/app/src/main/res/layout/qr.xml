@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Qr"
+    tools:overrideLibrary="com.budiyev.android.codescanner">
+
+        <com.budiyev.android.codescanner.CodeScannerView
+            android:id="@+id/scanner_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:autoFocusButtonColor="@android:color/white"
+            app:autoFocusButtonVisible="true"
+            app:flashButtonColor="@android:color/white"
+            app:flashButtonVisible="true"
+            app:maskColor="#6C000000"/>
+
+
+
+    app:frameColor="@android:color/white"
+            app:frameCornersSize="50dp"
+            app:frameCornersRadius="0dp"
+            app:frameAspectRatioWidth="1"
+            app:frameAspectRatioHeight="1"
+            app:frameSize="0.75"
+            app:frameThickness="2dp"
+            app:maskColor="#77000000"/>
+    <TextView
+        android:id="@+id/scanstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@id/scanner_view"
+        android:layout_centerHorizontal="true"
+        android:text="Scan QR Code"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/sucessscan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_check_circle_24"
+        android:layout_below="@id/scanstatus"
+        android:layout_centerHorizontal="true"
+        app:tint="#4CAF50"
+        android:visibility="gone"
+        tools:ignore="VectorDrawableCompat" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "545035226701",
+    "project_id": "gmifyp-de196",
+    "storage_bucket": "gmifyp-de196.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545035226701:android:93dd904c040bccb3ad9604",
+        "android_client_info": {
+          "package_name": "com.example.gmifyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "545035226701-tetoqn13246nvbgpj7hpdqn2ipsvofpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX9jgsVL90eA-IsIa0is6fXrFo4Q0YtfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "545035226701-tetoqn13246nvbgpj7hpdqn2ipsvofpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">GMI Student App</string>
+    <string name="subtitle">Student Portal</string>
+    <string name="subtitle1">Announcement</string>
+    <string name="subtitle2">GMI Virtuelle Lernumgebung</string>
+    <string name="subtitle3">QR Attendance</string>
+    <string name="subtitle5">More</string>
+    <string name="subtitle21">GMI Student App</string>
+    <string name="hint_name">GMI Email</string>
+    <string name="hint_email">GMI Email</string>
+    <string name="hint_name2">ID Number</string>
+    <string name="hint_password">VLU Password</string>
+    <string name="btn_link_to_login">Or Scan Matrix ID Barcode</string>
+    <string name="hint_name3">Matrix ID</string>
+    <string name="hint_name21">IC No.</string>
+    <string name="subtitl">GMI Student App</string>
+    <string name="subtitle123">Register</string>
+    <string name="subtitle13">Davinci Schedule</string>
+    <string name="con1">Ms. Zuwainah Za\'aba</string>
+    <string name="con2">RO/SRU</string>
+    <string name="con3">0192654234</string>
+    <string name="con4">Mr. Abdul Hamid Temyati</string>
+    <string name="con5">RO/SRU</string>
+    <string name="con6">0146247568</string>
+    <string name="con7">RO/SRU</string>
+    <string name="con8">0103357893</string>
+    <string name="con9">Ms. Aini Ashad</string>
+    <string name="con10">Registrar</string>
+    <string name="con11">0123389980</string>
+    <string name="con12">Ms. Nurul Afiqah Abdul Khalil</string>
+    <string name="con13">Hos student support</string>
+    <string name="con14">0196277815</string>
+    <string name="con15">Mr. Mohamed Fitri Bin Ahmad Takri</string>
+    <string name="con16">Safety Unit</string>
+    <string name="con17">01120839322</string>
+    <string name="con18">Ms. Zawidatulasma Jamaluddin</string>
+    <string name="subtitle25">GMI Library (archive)</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+
+</resources>

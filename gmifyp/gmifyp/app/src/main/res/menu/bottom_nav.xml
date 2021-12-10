@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_vlu"
+        android:icon="@drawable/ic_baseline_event_note_24"
+        android:title="VLU" />
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+        android:title="Scan" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/ic_baseline_phonelink_24"
+        android:title="Student portal" />
+
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/ic_baseline_more_horiz_24"
+        android:title="More" />
+
+
+</menu>
